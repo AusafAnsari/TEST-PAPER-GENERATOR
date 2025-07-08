@@ -7,6 +7,7 @@ import random
 import os
 import glob
 import time
+import gunicorn
 from utils.pdf_generator import create_pdf
 
 app = Flask(__name__)
